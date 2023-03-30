@@ -1,0 +1,28 @@
+# Ignore compiled binary files
+*.class
+*.o
+*.ko
+
+# Ignore log and temp files
+*.log
+*.swp
+*~
+*.tmp
+
+# Ignore build output directories
+/bin/
+/build/
+/dist/
+/node_modules/
+/vendor/
+
+# Ignore sensitive or configuration files
+.env
+config.json
+secrets.yaml
+
+# Ignore IDE or editor specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
